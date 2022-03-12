@@ -1,0 +1,650 @@
+{
+  "Moonworks:Accelerator": {
+    "NAME": "极速装置",
+    "DESCRIPTION": "获得 !M! 层 *极速装置 。",
+    "EXTENDED_DESCRIPTION": ["极速装置", "每当在战斗中临时增加一张牌，将一张复制放入你的手牌。 NL 不会对 #y状态牌 ， #y诅咒牌 ,或 #y魔法牌 生效。",
+      "可选: 花费 [E] 升级所有临时增加的牌。",
+      "获得 !M! 层 *极速装置 。","花费 [E] 。 NL 获得 !M! 层 *极速装置 。 NL 升级在战斗中临时生成的所有牌。"]
+  },
+  "Moonworks:AccelHyper": {
+    "NAME": "极速超能",
+    "DESCRIPTION": "在这个回合,你打出的下一张攻击和技能牌会打出两次。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "在这个回合,你打出的下一张攻击和技能牌会打出两次。"
+  },
+  "Moonworks:AirStrike": {
+    "NAME": "飞艇轰炸",
+    "DESCRIPTION": "对所有敌人造成 !D! 点 moonworks:溅射 *伤害 。 NL 抹除 。"
+  },
+  "Moonworks:Ambush": {
+    "NAME": "偷袭",
+    "DESCRIPTION": "给予 !M! 层 易伤 。 NL 然后造成 !D! 点伤害。",
+    "EXTENDED_DESCRIPTION": ["本次攻击将 moonworks:穿透 。"]
+  },
+  "Moonworks:AngelHand": {
+    "NAME": "天使之手",
+    "DESCRIPTION": "保留 。 NL 获得 !B! 点 格挡 。 NL 保留 时,这张牌变化为 *恶魔之手 。"
+  },
+  "Moonworks:AnotherUltimateWeapon": {
+    "NAME": "另一个最终兵器",
+    "DESCRIPTION": "获得X点 力量 和5X点 格挡  。",
+    "UPGRADE_DESCRIPTION": "获得X+1点 力量 和5(X+1) 点 格挡 。",
+    "EXTENDED_DESCRIPTION": ["+X点 力量 ， +5X点 格挡 。"]
+  },
+  "Moonworks:Assault": {
+    "NAME": "突击",
+    "DESCRIPTION": "造成 !D! 点 moonworks:穿透 *伤害 。",
+    "EXTENDED_DESCRIPTION": ["moonworks:穿透 效果翻倍。"]
+  },
+  "Moonworks:AwakeningOfTalent": {
+    "NAME": "才气觉醒",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 获得 !B! 点 格挡 。 NL 抽 !M! 张牌。 NL 如果这张牌杀死敌人，获得 [E] 。",
+    "EXTENDED_DESCRIPTION": ["获得 [E] 。"]
+  },
+  "Moonworks:BackdoorTrade": {
+    "NAME": "幕后交易",
+    "DESCRIPTION": "获得 !Moonworks:SecondMagic! 层 moonworks:Norma 。 NL 消耗 。",
+    "EXTENDED_DESCRIPTION": ["不再 消耗 ，抽 !M! 张牌。","获得 !Moonworks:SecondMagic! 层 moonworks:Norma 。"]
+  },
+  "Moonworks:BeastWitch": {
+    "NAME": "兽之魔女",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 获得 !M! 点 *临时力量 。",
+    "EXTENDED_DESCRIPTION": ["伤害+2。"]
+  },
+  "Moonworks:BeyondHell": {
+    "NAME": "修罗场模式",
+    "DESCRIPTION": "每失去 !Moonworks:InvertedNumber! 点生命获得 !M! 层 活力 。",
+    "EXTENDED_DESCRIPTION": ["改为每失去3点生命。"]
+  },
+  "Moonworks:BigBangBell": {
+    "NAME": "大爆炸铃",
+    "DESCRIPTION": "给予 !M! 层 *大爆炸铃 。 NL 每当提升 *Norma 等级时将这张牌放入手中。 NL 消耗 。",
+    "EXTENDED_DESCRIPTION": ["基础层数+5。","在目标下次造成未被格挡的伤害时爆炸。 NL 层数每回合提高50%。"]
+  },
+  "Moonworks:BigMagnum": {
+    "NAME": "大麦格农炮",
+    "DESCRIPTION": "消耗 1 张牌。 NL 获得 !M! 层 活力 。 NL 在本场战斗中提高 NL !Moonworks:SecondMagic! 层这张牌可获得的 活力 。 NL 可以升级 5 次。",
+    "EXTENDED_DESCRIPTION": ["如果 消耗 一张 *攻击牌 则获得4层 活力 。","更大麦格农炮","最大麦格农炮","更最大麦格农炮","最最大麦格农炮","最大麦格农炮完","选择一张牌消耗。"]
+  },
+  "Moonworks:BigRocketCannon": {
+    "NAME": "大火箭炮",
+    "DESCRIPTION": "对所有敌人造成 !D! 点伤害。 NL 将1张 *飞艇轰炸 放入你的抽牌堆。 NL 抹除 。",
+    "UPGRADE_DESCRIPTION": "对所有敌人造成 !D! 点伤害。 NL 将1张 *飞艇轰炸+ 放入你的抽牌堆。 NL 抹除 。"
+  },
+  "Moonworks:BindingChains": {
+    "NAME": "束缚之锁",
+    "DESCRIPTION": "目标失去 !M! 点 *临时力量 并获得 !Moonworks:SecondMagic! 层 易伤 。 moonworks:溅射 。 NL 消耗 。",
+    "EXTENDED_DESCRIPTION": ["腐蚀之锁","这把锁已经几乎被完全腐蚀。"," 不能被打出 。"]
+  },
+  "Moonworks:Blazing": {
+    "NAME": "爆燃!",
+    "DESCRIPTION": "在你的回合开始时，给予所有敌人 !M! 层 moonworks:烧毁星球之光 然后提高该数值 !Moonworks:SecondMagic! 点。"
+  },
+  "Moonworks:Bloodlust": {
+    "NAME": "鲜血渴望",
+    "DESCRIPTION": "moonworks:礼物卡余额 : !Moonworks:SecondMagic! 。 NL 在手中时:本回合你每打出一张攻击牌获得 !M! 点 *临时力量 。 NL 这张牌本回合触发效果且 保留 时才消费余额",
+    "EXTENDED_DESCRIPTION": ["我无法打出这张牌。"]
+  },
+  "Moonworks:BlueCrowTheSecond": {
+    "NAME": "湛蓝乌鸦",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 获得 !B! 点 格挡 。 NL 你的手牌中每有一张 *攻击牌 额外获得2点 格挡 。",
+    "UPGRADE_DESCRIPTION": "保留 。 NL 造成 !D! 点伤害。 NL 获得 !B! 点 格挡 。 NL 你的手牌中每有一张 *攻击牌 额外获得2点 格挡 。",
+    "EXTENDED_DESCRIPTION": ["湛蓝乌鸦·再临"]
+  },
+  "Moonworks:CastOff": {
+    "NAME": "脱衣",
+    "DESCRIPTION": "失去所有 格挡 。 NL 获得等量的 活力 。 NL 消耗 。",
+    "EXTENDED_DESCRIPTION": ["获得 5 层 moonworks:稳固 。"]
+  },
+  "Moonworks:ChefSomeHelp": {
+    "NAME": "拜托了厨师长!",
+    "DESCRIPTION": "造成 !D! 点 moonworks:复仇 *伤害 。 NL 战斗中失去 !Moonworks:SecondMagic! 次生命后造成双倍伤害。",
+    "EXTENDED_DESCRIPTION": [
+      "拜托了店长!",
+      "造成 !D! 点 moonworks:复仇 *伤害 。 NL moonworks:重置 。"
+    ]
+  },
+  "Moonworks:CloudOfSeagulls": {
+    "NAME": "大群的海鸥",
+    "DESCRIPTION": "对随机单位造成 !Moonworks:ThirdMagic! 点 moonworks:固定 *伤害 !Moonworks:SecondMagic! 次。 NL 将 !M! 张 *乔纳桑·速袭 加入手牌。",
+    "UPGRADE_DESCRIPTION": "对随机敌人造成 !Moonworks:ThirdMagic! 点 moonworks:固定 *伤害 !Moonworks:SecondMagic! 次。 NL 将 !M! 张 *乔纳桑·速袭+ 加入手牌。",
+    "EXTENDED_DESCRIPTION": ["抽1张牌。","随机对一名敌人造成 !Moonworks:ThirdMagic! 点 moonworks:固定 *伤害 。 NL 将 !M! 张 *乔纳桑·速袭+ 加入手牌。"]
+  },
+  "Moonworks:CompletionReward": {
+    "NAME": "成功报酬",
+    "DESCRIPTION": "本场战斗中每打出一张牌就造成1点伤害。 moonworks:重置 。 NL (造成 !D! 点伤害。)",
+    "UPGRADE_DESCRIPTION": "本场战斗中每打出一张牌就造成1点伤害。 moonworks:重置 为当前伤害数值的一半。 NL (造成 !D! 点伤害。)",
+    "EXTENDED_DESCRIPTION": ["+3 点伤害。"]
+  },
+  "Moonworks:CookingTime": {
+    "NAME": "烹饪时间",
+    "DESCRIPTION": "所有人恢复 !M! 点生命。 造成恢复生命数值的伤害。 NL 消耗 。",
+    "EXTENDED_DESCRIPTION": ["+3 点生命恢复。"]
+  },
+  "Moonworks:CrystalBarrier": {
+    "NAME": "水晶的障壁",
+    "DESCRIPTION": "格挡 不会在你的回合开始时消失。 NL 获得 !M! 层 *多层护甲 。"
+  },
+  "Moonworks:DarkSideOfBusiness": {
+    "NAME": "邪恶的资金筹集",
+    "DESCRIPTION": "失去所有 *Norma 。 NL 从3张 moonworks:魔法 牌中选择1张，其充能数等于失去的 *Norma 等级。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "失去所有 *Norma 。 NL 从3张已升级的 moonworks:魔法 牌中选择1张，其充能数等于失去的 *Norma 等级。 NL 消耗 。"
+  },
+  "Moonworks:Dash": {
+    "NAME": "冲刺",
+    "DESCRIPTION": "获得 [E] 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "获得 [E] [E] 。 NL 消耗 。",
+    "EXTENDED_DESCRIPTION": ["获得 5 点 格挡 。"]
+  },
+  "Moonworks:Defend": {
+    "NAME": "防御",
+    "DESCRIPTION": "获得 !B! 点 格挡 。",
+    "EXTENDED_DESCRIPTION": ["+1 点 格挡", "+1 点 格挡"]
+  },
+  "Moonworks:DeltaField": {
+    "NAME": "三角力场",
+    "DESCRIPTION": "所有敌人获得 !M! 层 易伤 并失去 !Moonworks:SecondMagic! 点 *临时力量 。"
+  },
+  "Moonworks:DeployBits": {
+    "NAME": "浮游炮展开",
+    "DESCRIPTION": "随机获得共 !Moonworks:SecondMagic! 点 格挡 和 活力 。",
+    "EXTENDED_DESCRIPTION": ["浮游炮现在会 moonworks:最优化分配 。"]
+  },
+  "Moonworks:DesperateModification": {
+    "NAME": "自暴自弃的改造",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 如果目标的意图是攻击，获得 !M! 点 格挡 并 消耗 。",
+    "EXTENDED_DESCRIPTION": ["获得 !B! 点 格挡 。 NL 消耗 。"]
+  },
+  "Moonworks:DevilHand": {
+    "NAME": "恶魔之手",
+    "DESCRIPTION": "保留 。 NL 造成 !D! 点伤害。 NL 保留 时,这张牌变化为 *天使之手 。"
+  },
+  "Moonworks:Dinner": {
+    "NAME": "晚餐",
+    "DESCRIPTION": "给予所有人 !M! 层 再生 。 NL 消耗 。",
+    "EXTENDED_DESCRIPTION": ["获得等于 再生 层数的 格挡 。"]
+  },
+  "Moonworks:Encore": {
+    "NAME": "安可",
+    "DESCRIPTION": "在你的回合开始时重复你打出的最后一张牌的 *效果 。",
+    "EXTENDED_DESCRIPTION": ["获得等于 再生 层数的格挡。"]
+  },
+  "Moonworks:EvilMastermind": {
+    "NAME": "邪恶的主谋",
+    "DESCRIPTION": "给予随机敌人牌组中所有 moonworks:陷阱 牌的效果,不包括其他 *邪恶的主谋 。",
+    "UPGRADE_DESCRIPTION": "固有 。 NL 给予随机敌人牌组中所有 moonworks:陷阱 牌的效果,不包括其他 *邪恶的主谋 。",
+    "EXTENDED_DESCRIPTION":
+    ["固有 。 NL ",
+      " NL 消耗 。",
+      "给予随机敌人牌组中所有 moonworks:陷阱 牌的效果 : ",
+      " NL Plus *",
+      " more。",
+      " 次。",
+      " 次。"]
+  },
+  "Moonworks:EvilSpyWorkExecution": {
+    "NAME": "邪恶的间谍行动~执行",
+    "DESCRIPTION": "自动打出 。 NL 对所有敌人造成 !D! 点伤害。 NL 抽 !M! 张牌。 NL  抹除 。",
+    "UPGRADE_DESCRIPTION": "自动打出 。 NL 对所有敌人造成 !D! 点伤害。 NL 抽 !M! 张牌。 NL  抹除 。"
+  },
+  "Moonworks:EvilSpyWorkPreparation": {
+    "NAME": "邪恶的间谍行动~预备",
+    "DESCRIPTION": "将 !M! 张 *邪恶的间谍行动~执行 放入你的抽牌堆。"
+  },
+  "Moonworks:ExtendedPhotonRifle": {
+    "NAME": "扩散光子来复枪",
+    "DESCRIPTION": "造成 !D! 点伤害 X 次。 NL 力量 在这张牌上发挥 NL !Moonworks:SecondMagic! 倍效果。"
+  },
+  "Moonworks:ExtraordinarySpecs": {
+    "NAME": "荒唐的性能",
+    "DESCRIPTION": "获得 !M! 点 *临时力量 和 *临时敏捷 。 NL 抽 !Moonworks:SecondMagic! 张牌。 NL  消耗 。"
+  },
+  "Moonworks:FinalBattle": {
+    "NAME": "最终决战",
+    "DESCRIPTION": "在下 !M! 个回合，所有人的攻击都将造成双倍伤害。"
+  },
+  "Moonworks:FinalSurgery": {
+    "NAME": "决杀之手术",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 如果目标有 易伤 或 moonworks:过热 ，再造成 !D! 点伤害。"
+  },
+  "Moonworks:Flamethrower": {
+    "NAME": "喷射火焰",
+    "DESCRIPTION": "moonworks:礼物卡余额 : !Moonworks:SecondMagic! 。 NL 在手牌中: 每打出1张牌，对一名敌人造成 !M! 点 moonworks:固定 伤害。 NL 打出: 弃置。",
+    "EXTENDED_DESCRIPTION": ["喷火器燃料耗尽。"]
+  },
+  "Moonworks:ForcedRevival": {
+    "NAME": "强制复活",
+    "DESCRIPTION": "恢复 !M! 点生命。 NL 获得 [E] 。 NL 获得 !Moonworks:InvertedNumber! 层 易伤 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "恢复 !M! 点生命。 NL 获得 [E] [E] 。 NL 获得 !Moonworks:InvertedNumber! 层 易伤 。 NL 消耗 。",
+    "EXTENDED_DESCRIPTION": ["获得 !Moonworks:InvertedNumber! 层 虚弱 ，但获得2倍 [E] 。"]
+  },
+  "Moonworks:FullSpeedAlicianrone": {
+    "NAME": "急速的亚莉希安罗妮",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 在下个回合，抽 !M! 张牌。",
+    "EXTENDED_DESCRIPTION": ["改为对全体敌人造成伤害。"]
+  },
+  "Moonworks:Gamble": {
+    "NAME": "赌博!",
+    "DESCRIPTION": "杀死一名随机目标。",
+    "UPGRADE_DESCRIPTION": "保留 。 NL 杀死一名随机目标。"
+  },
+  "Moonworks:GoAway": {
+    "NAME": "飞一边去",
+    "DESCRIPTION": "虚无 。 NL moonworks:击晕 目标一回合。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "moonworks:击晕 目标一回合。 NL 消耗 。"
+  },
+  "Moonworks:GoldenEgg": {
+    "NAME": "金蛋",
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 将1张随机 *攻击牌 放入你的抽牌堆。",
+    "EXTENDED_DESCRIPTION": ["改为加入手牌。"]
+  },
+  "Moonworks:TrulyGoldenEgg": {
+    "NAME": "真正的金蛋",
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 从3张随机 *攻击牌 中选择1张加入你的手牌，这张牌在本回合的耗能为0。"
+  },
+  "Moonworks:Heat300Percent": {
+    "NAME": "热度300%",
+    "DESCRIPTION": "给予 !M! 层 moonworks:过热 。 NL 消耗 。",
+    "EXTENDED_DESCRIPTION": ["额外给予目标50% moonworks:过热 。"]
+  },
+  "Moonworks:HolyNight": {
+    "NAME": "神圣之夜",
+    "DESCRIPTION": "每回合一次，你可以支付 [E] 抽2张牌。",
+    "UPGRADE_DESCRIPTION": "固有 。 NL 每回合一次，你可以支付 [E] 抽2张牌。",
+    "EXTENDED_DESCRIPTION": ["每回合使用次数不限。"]
+  },
+  "Moonworks:ImmovableObject": {
+    "NAME": "不动之物体",
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 获得 !M! 层 moonworks:不动 。 NL 消耗 。"
+  },
+  "Moonworks:ImOnFire": {
+    "NAME": "燃起来吧!",
+    "DESCRIPTION": "获得 !M! 层 活力 和 !Moonworks:SecondMagic! 层 易伤 。",
+    "EXTENDED_DESCRIPTION": ["-10 层 活力 ，在本回合内攻击造成双倍伤害。"]
+  },
+  "Moonworks:IndiscriminateFireSupport": {
+    "NAME": "无差别火力支援",
+    "DESCRIPTION": "对所有敌人造成 !D! 点伤害 X 次。 NL 将 !Moonworks:InvertedNumber! 张 *晕眩 放入到你的抽牌堆。",
+    "EXTENDED_DESCRIPTION": ["少放入1张 *晕眩 。"]
+  },
+  "Moonworks:IntelligenceOfficer": {
+    "NAME": "情报官",
+    "DESCRIPTION": "预见 !M! 每有一张 NL 攻击牌: 获得 !Moonworks:SecondMagic! 层 活力 。 NL 技能牌: 获得 !Moonworks:SecondMagic! 层 moonworks:稳固 。 NL 其它牌: 抽 1 张牌。"
+  },
+  "Moonworks:JonathanRush": {
+    "NAME": "乔纳桑·速袭",
+    "DESCRIPTION": "自动打出 。 NL 对随机敌人造成 !D! 点伤害。 NL 在本场战斗中每打出一张 *乔纳桑·速袭 提高 !M! 点伤害。",
+    "UPGRADE_DESCRIPTION": "自动打出 。 NL 对随机敌人造成 !D! 点伤害。 NL 在本场战斗中每打出一张 *乔纳桑·速袭 提高 !M! 点伤害。"
+  },
+  "Moonworks:LeapThroughSpacetime": {
+    "NAME": "时空的跳跃",
+    "DESCRIPTION": "选择1种效果: NL 从你的下一回合借用 *能量 。 NL 从你的下一回合借用 *卡牌 。",
+    "EXTENDED_DESCRIPTION": ["穿越。。。"," 空间!"," 时间!"]
+  },
+  "Moonworks:LeapThroughSpace": {
+    "NAME": "空间的跳跃",
+    "DESCRIPTION": "你可以看到你下一回合开始时抽到的卡牌。 你可以选择并加入到你的手牌，每加入一张下回合开始时少抽一张牌。"
+  },
+  "Moonworks:LeapThroughTime": {
+    "NAME": "时间的跳跃",
+    "DESCRIPTION": "你可以从未来借用 [E] ，下回合开始时失去等量 [E] 。"
+  },
+  "Moonworks:LongDistanceShot": {
+    "NAME": "远距离射击",
+    "DESCRIPTION": "造成 !D! 点伤害。 moonworks:穿透 。 NL 当 *Norma 等级提升时将这张牌放入手牌。",
+    "EXTENDED_DESCRIPTION": ["虚无 。 NL 造成 !D! 点伤害。 NL 消耗 。",
+      "有余额时抽 !M! 张牌。 余额: !Moonworks:SecondMagic! 。"]
+  },
+  "Moonworks:LuckyCharm": {
+    "NAME": "幸运护符",
+    "DESCRIPTION": "moonworks:礼物卡余额 : !Moonworks:SecondMagic! 。 NL 在手牌中: 在你的回合开始时获得 [E] 。 NL 打出: 弃置，并用最多3点 [E] 补充 moonworks:礼物卡余额 。",
+    "EXTENDED_DESCRIPTION": ["你的幸运护符的运气已耗尽。"]
+  },
+  "Moonworks:LulusLuckyEgg": {
+    "NAME": "露露的幸运蛋",
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 随机获得以下1种效果 NL 抽 !M! 张牌。 NL 获得 !M! 点 格挡 。 NL 获得 !M! 点 *临时敏捷 。"
+  },
+  "Moonworks:LulusLuckiestEgg": {
+    "NAME": "露露的超幸运蛋",
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 抽 !M! 张牌。 NL 获得 !M! 点 格挡 。 NL 获得 !M! 点 *临时敏捷 。"
+  },
+  "Moonworks:MagicalInferno": {
+    "NAME": "魔法狱火",
+    "DESCRIPTION": "对所有敌人造成 !D! 点 moonworks:溅射 *伤害 。 NL 获得 !M! 层 活力 。 NL 消耗性 !stslib:ex! 。",
+    "EXTENDED_DESCRIPTION": ["真魔法 魔法狱火"]
+  },
+  "Moonworks:MagicalMassacre": {
+    "NAME": "杀戮魔法",
+    "DESCRIPTION": "生命值百分比最高的敌人失去 !D! 点生命和生命上限。 NL 获得 !Moonworks:SecondMagic! 层 moonworks:稳固 。 NL 消耗性 !stslib:ex! 。",
+    "EXTENDED_DESCRIPTION": ["真魔法 杀戮魔法"]
+  },
+  "Moonworks:MagicalRevenge": {
+    "NAME": "复仇魔法",
+    "DESCRIPTION": "造成等同你失去的生命值 !D! %的 moonworks:复仇 *伤害且拥有 !M! %的 moonworks:生命窃取 。 NL (造成 !Moonworks:SecondMagic! 点伤害。) NL 消耗性 !stslib:ex! 。",
+    "EXTENDED_DESCRIPTION": ["真魔法 复仇魔法"]
+  },
+  "Moonworks:MeltingMemories": {
+    "NAME": "融化的记忆",
+    "DESCRIPTION": "失去所有 *Norma 等级。 NL 你每回合打出的第一张牌将 *转变 为 moonworks:记忆 。 NL 在每个回合开始时重新获得1级失去的 *Norma 。",
+    "UPGRADE_DESCRIPTION": "失去所有 *Norma 等级。 NL 你每回合打出的第一张牌将 *转变 为 moonworks:记忆 并升级。 NL 在每个回合开始时重新获得1级失去的 *Norma 。",
+    "EXTENDED_DESCRIPTION": ["记忆转变","可以转变 #b0 或更多能量的 #y攻击 和 #y技能 牌。否则转变失败。"]
+  },
+  "Moonworks:Mimic": {
+    "NAME": "化身",
+    "DESCRIPTION": "选择你手牌中的一张牌。 在下个回合开始时,不抽牌,将 !M! 张被选择的牌的复制加入手牌。",
+    "EXTENDED_DESCRIPTION": [" +1 张复制。"]
+  },
+  "Moonworks:MetallicMonocoque": {
+    "NAME": "全金属单体结构",
+    "DESCRIPTION": "moonworks:礼物卡余额 : !Moonworks:SecondMagic! 。 NL 在手牌中: 当你失去过生命后，受到攻击伤害时减少受到的伤害 !M! 点。",
+    "EXTENDED_DESCRIPTION": ["你的单体壳损伤过于严重已无法使用。"]
+  },
+  "Moonworks:MiracleRedBeanIceCream": {
+    "NAME": "奇迹红豆冰淇淋",
+    "DESCRIPTION": "moonworks:礼物卡余额 : !Moonworks:SecondMagic! 。 NL 在手牌中: 获得 !M! 点 *临时力量 。 NL 打出: 消耗 。 NL 消耗 : 恢复 5 点生命。",
+    "EXTENDED_DESCRIPTION": ["你已经吃掉了奇迹红豆冰淇淋。"]
+  },
+  "Moonworks:MiracleWalker": {
+    "NAME": "奇迹漫步",
+    "DESCRIPTION": "每当这张牌变化时,这张牌当前回合的费用变为0。",
+    "UPGRADE_DESCRIPTION": "每当这张牌变化时，这张牌当前回合的费用变为0。 NL 变化出的牌会升级。",
+    "EXTENDED_DESCRIPTION": ["变化出的攻击牌和技能牌不会 消耗 。"]
+  },
+  "Moonworks:MixPhenomenon": {
+    "NAME": "混成化现象",
+    "DESCRIPTION": "补满 !M! 张随机礼物卡的 moonworks:礼物卡余额 并将其放入到你的抽牌堆。 NL 抽 !Moonworks:SecondMagic! 张牌。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "补满 !M! 张礼物卡的 moonworks:礼物卡余额 并将其放入到你的抽牌堆。 NL 抽 !Moonworks:SecondMagic! 张牌。 NL 消耗 。"
+  },
+  "Moonworks:NicePresent": {
+    "NAME": "美妙的礼物",
+    "DESCRIPTION": "抽 !M! 张牌。 NL 消耗 。",
+    "EXTENDED_DESCRIPTION": ["抽到的牌在本回合 保留 。"]
+  },
+  "Moonworks:OutOfAmmo": {
+    "NAME": "弹药用尽",
+    "DESCRIPTION": "无论何时，当你没有手牌或只有 moonworks:礼物 卡和不能打出的状态牌时，抽一张牌。"
+  },
+  "Moonworks:PlushieMaster": {
+    "NAME": "人偶使",
+    "DESCRIPTION": "给予随机敌人 !M! 层 moonworks:人偶印记 。",
+    "EXTENDED_DESCRIPTION": ["+2 层人偶印记。"]
+  },
+  "Moonworks:Poppoformation": {
+    "NAME": "啵噗化",
+    "DESCRIPTION": "下 !M! 次敌人改变意图时，根据意图给予 NL 虚弱 ， 脆弱 ，或 易伤 。"
+  },
+  "Moonworks:PresentForYou": {
+    "NAME": "给你的礼物",
+    "DESCRIPTION": "选择1个效果: NL 将 !M! 张随机 moonworks:礼物 卡放入到你的抽牌堆。 NL 将 !M! 张随机 moonworks:陷阱 牌放入到你的抽牌堆。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "选择1个效果: NL 将 !M! 张随机 moonworks:礼物 卡放入到你的抽牌堆。 NL 将 !M! 张随机 moonworks:陷阱 牌放入到你的抽牌堆。 NL 消耗 。"
+  },
+  "Moonworks:NiceList": {
+    "NAME": "听话孩子的礼物",
+    "DESCRIPTION": "将 !M! 张随机 moonworks:礼物 卡放入到你的抽牌堆。",
+    "UPGRADE_DESCRIPTION": "将 !M! 张随机 moonworks:礼物 卡放入到你的抽牌堆。"
+  },
+  "Moonworks:NaughtyList": {
+    "NAME": "淘气孩子的礼物",
+    "DESCRIPTION": "将 !M! 张随机 moonworks:陷阱 牌放入到你的抽牌堆。",
+    "UPGRADE_DESCRIPTION": " 将 !M! 张随机 moonworks:陷阱 牌放入到你的抽牌堆。"
+  },
+  "Moonworks:PoppoTheSnatcher": {
+    "NAME": "掠夺者啵噗",
+    "DESCRIPTION": "moonworks:礼物卡余额 : !Moonworks:SecondMagic! 。 NL 在手牌中: 如果一个敌人试图加buff，该buff将给予你。",
+    "EXTENDED_DESCRIPTION": ["啵噗累了已经不想再恶作剧了。"]
+  },
+  "Moonworks:PortablePudding": {
+    "NAME": "便携布丁",
+    "DESCRIPTION": "在每个回合结束，恢复 !M! 点生命。"
+  },
+  "Moonworks:ProtagonistsPrivilege": {
+    "NAME": "主角的特权",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 抽 !M! 张牌。 NL 如果两张牌是同类型的牌，在下回合开始时重复本牌的 *效果 。",
+    "EXTENDED_DESCRIPTION": ["如果造成未被格挡的伤害,恢复 !Moonworks:SecondMagic! 点生命。"]
+  },
+  "Moonworks:QuickRestoration": {
+    "NAME": "瞬间再生",
+    "DESCRIPTION": "获得 !B! 点 格挡 !M! 次。",
+    "EXTENDED_DESCRIPTION": ["-1 格挡 ，但获得 格挡 次数 +1 。"]
+  },
+  "Moonworks:RainbowColoredCircle": {
+    "NAME": "虹色之环",
+    "DESCRIPTION": "将 !M! 点格挡转化为 moonworks:稳固 。",
+    "EXTENDED_DESCRIPTION": [
+      "+4 点格挡转化并且 *最优化分配 。",
+      "最优化分配",
+      "至少转化 #b5 #y格挡 ，但可能转化更多，取决于你当前 #y格挡 和你的敌人的意图。"
+    ]
+  },
+  "Moonworks:RagingMadness": {
+    "NAME": "愤怒狂暴",
+    "DESCRIPTION": "每当你受到未被格挡的伤害，获得 !M! 点 力量 。",
+    "UPGRADE_DESCRIPTION": "固有 。 NL 每当你受到未被格挡的伤害，获得 !M! 点 力量 。",
+    "EXTENDED_DESCRIPTION": ["获得双倍 力量 。"]
+  },
+  "Moonworks:Rbits": {
+    "NAME": "兔子浮游炮",
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 获得 !M! 层 moonworks:稳固 。"
+  },
+  "Moonworks:RedAndBlue": {
+    "NAME": "小红＆小蓝",
+    "DESCRIPTION": "moonworks:礼物卡余额 : !Moonworks:SecondMagic! 。 NL 在手牌中: 在你的回合开始时,获得 !M! 层 活力 和 !M! 层 moonworks:稳固 。 NL 打出: 弃置。",
+    "EXTENDED_DESCRIPTION": ["小红和小蓝在休息中。"]
+  },
+  "Moonworks:ReflectiveShell": {
+    "NAME": "反射外装",
+    "DESCRIPTION": "阻止你下次失去生命。 获得你本应受到伤害数值的 活力 。"
+  },
+  "Moonworks:ReproductionOfRecords": {
+    "NAME": "记录重现",
+    "DESCRIPTION": "将弃牌堆顶部 !M! 张牌的复制加入你的手牌。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "保留 。 NL 将弃牌堆顶部 !M! 张牌的复制加入你的手牌。 NL 消耗 。",
+    "EXTENDED_DESCRIPTION": ["获得 [E] 。"]
+  },
+  "Moonworks:Rival": {
+    "NAME": "劲敌",
+    "DESCRIPTION": "将生命值百分比最高的敌人视为 moonworks:劲敌 。"
+  },
+  "Moonworks:RocketCannon": {
+    "NAME": "火箭炮",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 将 !M! 张 *大火箭炮 放入到你的抽牌堆。",
+    "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。 NL 将 !M! 张 *大火箭炮+ 放入到你的抽牌堆。",
+    "EXTENDED_DESCRIPTION": ["额外洗入一张。"]
+  },
+  "Moonworks:SakisCookie": {
+    "NAME": "纱季的曲奇",
+    "DESCRIPTION": "恢复 !M! 点生命。 NL 消耗 。",
+    "EXTENDED_DESCRIPTION": ["抽1张牌。"]
+  },
+  "Moonworks:ScrambledEve": {
+    "NAME": "大争夺·圣诞夜",
+    "DESCRIPTION": "丢弃任意数量的手牌，然后抽等量+ !M! 张牌。",
+    "UPGRADE_DESCRIPTION": "将你的弃牌堆放入你的抽牌堆。 NL 丢弃任意数量手牌，然后抽等量+ !M! 张牌。",
+    "EXTENDED_DESCRIPTION": ["抽 +1 张牌。", "抽 +1 张牌"]
+  },
+  "Moonworks:SealedMemories": {
+    "NAME": "记忆的封印",
+    "DESCRIPTION": "*转变 最多1张你手牌中的牌为 moonworks:记忆 。 NL 本回合 保留 你的手牌。",
+    "UPGRADE_DESCRIPTION": "保留 。 NL *转变 最多1张你手牌中的牌为 moonworks:记忆 。 NL 本回合 保留 你的手牌。",
+    "EXTENDED_DESCRIPTION": ["记忆转变","可以转变 #b0 或更多能量的 #y攻击 和 #y技能 牌。 否则转变失败。"]
+  },
+  "Moonworks:SelfDestruct": {
+    "NAME": "自爆",
+    "DESCRIPTION": "受到 !Moonworks:InvertedNumber! 点 moonworks:固定 *伤害 。 NL 对所有敌人造成 !D! 点伤害。 NL 在抵挡自伤时 格挡 发挥 !Moonworks:SecondMagic! 倍效果。 NL 可以在被 *缠身 时打出。",
+    "EXTENDED_DESCRIPTION": ["-X 自伤。"]
+  },
+  "Moonworks:SeriousBattle": {
+    "NAME": "殊死对决",
+    "DESCRIPTION": "对目标触发随机 !M! 个 moonworks:记忆 的效果。",
+    "UPGRADE_DESCRIPTION": "对目标触发随机 !M! 个 moonworks:记忆 的效果。"
+  },
+  "Moonworks:ShieldCounter": {
+    "NAME": "护盾反转",
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 获得1层 moonworks:护盾反转 。 NL 消耗。",
+    "EXTENDED_DESCRIPTION": ["moonworks:护盾反转 拥有 *承转 。"]
+  },
+  "Moonworks:SinkOrSwim": {
+    "NAME": "赌命一搏",
+    "DESCRIPTION": "在每回合开始时获得 [E] [E] 。 NL 获得 !Moonworks:SecondMagic! 层 虚弱 ，和 脆弱 。"
+  },
+ "Moonworks:StarBlastingFuse": {
+    "NAME": "星球的导火线",
+    "DESCRIPTION": "给予 moonworks:不可视的炸弹 。 NL 将这张牌放入到你的抽牌堆。 NL 当你抽到这张牌时，使所有拥有 moonworks:不可视的炸弹 的敌人失去 !M! 点生命。",
+    "EXTENDED_DESCRIPTION": ["咔boom!","芜湖湖，想被我炸飞吗?","乖乖取悦我,好吗?"]
+  },
+  "Moonworks:StarBlastingLight": {
+    "NAME": "烧毁星球之光",
+    "DESCRIPTION": "给予所有敌人 NL !M! 到 !Moonworks:SecondMagic! 层 NL moonworks:烧毁星球之光 。 NL 抹除 。",
+    "EXTENDED_DESCRIPTION": ["+X 层 moonworks:烧毁星球之光 。",
+      "芜湖。。。啊哈哈!","我要将你烧得连灰都不剩。。。","美丽地燃尽吧。"]
+  },
+  "Moonworks:StiffCrystal": {
+    "NAME": "坚固的结晶",
+    "DESCRIPTION": "获得 !M! 层 moonworks:结晶 。 NL 获得 !B! 点 格挡 。 NL 消耗 。",
+    "EXTENDED_DESCRIPTION": ["+4 格挡 。"]
+  },
+  "Moonworks:Strike": {
+    "NAME": "打击",
+    "DESCRIPTION": "造成 !D! 点伤害。",
+    "EXTENDED_DESCRIPTION": ["+1 点伤害。", "+2 点伤害。"]
+  },
+  "Moonworks:SubspaceTunnel": {
+    "NAME": "亚空间通道",
+    "DESCRIPTION": "从任意牌堆中选择 !M! 张牌加入手牌，把本牌放到被选择的牌所在的位置。 NL 本回合内被选择的牌耗能为0。"
+  },
+  "Moonworks:SweetBattle": {
+    "NAME": "甜点战争",
+    "DESCRIPTION": "moonworks:礼物卡余额 : !Moonworks:SecondMagic! 。 NL 当抽到/ 保留 时: 恢复 !M! 点生命。 NL 打出时: 弃置。",
+    "EXTENDED_DESCRIPTION": ["你的食糖后兴奋感(sugar rush)已消退。"]
+  },
+  "Moonworks:TacticalRetreat": {
+    "NAME": "敌前逃亡",
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 下个回合，获得 [E] 和 !M! 点 格挡 。",
+    "EXTENDED_DESCRIPTION": ["本回合和下回合各+2 点 格挡 。"]
+  },
+  "Moonworks:TreasureThief": {
+    "NAME": "宝物小偷",
+    "DESCRIPTION": "每回合一次，当你对此目标造成伤害，抽1张牌。 NL 消耗 。",
+    "EXTENDED_DESCRIPTION": ["每回合两次。"]
+  },
+  "Moonworks:Ubiquitous": {
+    "NAME": "神出鬼没",
+    "DESCRIPTION": "嘿!你怎么得到这张牌的? NL 显然，这张牌没有任何用处。。。"
+  },
+  "Moonworks:UnluckyCharm": {
+    "NAME": "不幸的护符",
+    "DESCRIPTION": "moonworks:礼物卡余额 : !Moonworks:SecondMagic! 。 NL 在手牌中: 任何给予你的负面状态也将给予所有敌人。",
+    "EXTENDED_DESCRIPTION": ["当它不在你身边时,你会感觉稍微更加幸运。"]
+  },
+  "Moonworks:UnforgivingAvenger": {
+    "NAME": "充满执念的复仇者",
+    "DESCRIPTION": "造成 !D! 点 moonworks:复仇 *伤害 。 NL 给予 !M! 层 虚弱 。",
+    "EXTENDED_DESCRIPTION": ["+2 伤害。"]
+  },
+    "Moonworks:UnpaidWork": {
+    "NAME": "劳而无薪",
+    "DESCRIPTION": "你打出的下一张非 抹除 且耗能大于0的牌将 回馈 。 NL 消耗 。"
+  },
+  "Moonworks:WarudaMachine": {
+    "NAME": "阴谋机器人",
+    "DESCRIPTION": "给予1层 moonworks:出动 。 如果目标在 moonworks:出动 触发前死亡，将双倍效果转移到另一名随机敌人身上。 NL 消耗 。",
+    "EXTENDED_DESCRIPTION": ["抽牌直到抽到 *技能牌 。"]
+  },
+  "Moonworks:Wanted": {
+    "NAME": "通缉令",
+    "DESCRIPTION": "给予 !M! 层 moonworks:被通缉 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "保留 。 NL 给予 !M! 层 moonworks:被通缉 。 NL 消耗 。"
+  },
+  "Moonworks:WeAreWaruda": {
+    "NAME": "我们是阴谋组",
+    "DESCRIPTION": "移除所有人的负面状态。 NL 给予目标所有被移除的负面状态。 NL 消耗 。"
+  },
+  "Moonworks:WhiteChristsmasher": {
+    "NAME": "白色圣诞大粉碎",
+    "DESCRIPTION": "造成 !D! 点伤害两次。 NL 如果你拥有 *小红＆小蓝 ，改为对所有敌人造成伤害。",
+    "EXTENDED_DESCRIPTION": ["真正的白色圣诞大粉碎","对所有敌人造成 !D! 点伤害两次。"]
+  },
+  "Moonworks:WhimsicalWindmill": {
+    "NAME": "变化无常的风车",
+    "DESCRIPTION": "在你的回合开始时，上一回合每有一名攻击过你的敌人则你获得 [E] 。",
+    "UPGRADE_DESCRIPTION": "固有 。 NL 在你的回合开始时，上一回合每有一名攻击过你的敌人则你获得 [E] 。"
+  },
+  "Moonworks:WindyEnchantment": {
+    "NAME": "疾风之附魔",
+    "DESCRIPTION": "moonworks:礼物卡余额 : !Moonworks:SecondMagic! 。 NL 抽到时:抽 2 张牌。 NL 保留 : 抽 !M! 张牌。 NL 打出: 弃置。",
+    "EXTENDED_DESCRIPTION": ["顺风已渐衰。"]
+  },
+  "Moonworks:x16BigRocket": {
+    "NAME": "大火箭",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 每打出一次，在本场战斗中提高这张牌的伤害 !M! 点。 NL 可以被升级到x16。"
+  },
+ "Moonworks:AttackTextContainer": {
+    "NAME": "Generic Attack Text",
+    "DESCRIPTION": "Extended Description used to hold text that will occasionally appear when playing an attack。",
+    "EXTENDED_DESCRIPTION": ["烧吧。","烧成灰。","Bang!","啊哈哈哈哈!"]
+  },
+  "Moonworks:SkillTextContainer": {
+    "NAME": "Generic Skill Text",
+    "DESCRIPTION": "Extended Description used to hold text that will occasionally appear when playing a skill。",
+    "EXTENDED_DESCRIPTION": ["嗯哼哼。","走着瞧。","这个如何?"]
+  },
+  "Moonworks:PowerTextContainer": {
+    "NAME": "Generic Power Text",
+    "DESCRIPTION": "Extended Description used to hold text that will occasionally appear when playing a power。",
+    "EXTENDED_DESCRIPTION": ["好吧，我要用这招!","让我们拭目以待。","我想这可以一试。"]
+  },
+  "Moonworks:BattleStartTextContainer": {
+    "NAME": "Battle Start Text",
+    "DESCRIPTION": "Extended Description used to hold text that will occasionally appear at the beginning of combat。",
+    "EXTENDED_DESCRIPTION": ["乖乖取悦我,好吗?","当然，我有的是时间陪你玩。","额呵呵。。。 有猎物出现了。","想被我烧死吗?"]
+  },
+  "Moonworks:LowHPBattleStartTextContainer": {
+    "NAME": "Low HP Battle Start Text",
+    "DESCRIPTION": "Extended Description used to hold text that will occasionally appear at the beginning of combat if you are badly injured。",
+    "EXTENDED_DESCRIPTION": ["我恨你。 该死!","别当我的道!","真是愚蠢。","真烦人。"]
+  },
+  "Moonworks:BattleEndTextContainer": {
+    "NAME": "Battle End Text",
+    "DESCRIPTION": "Extended Description used to hold text that will occasionally appear at the end of combat。",
+    "EXTENDED_DESCRIPTION": ["多么灿烂的烈火啊!"," 感觉这里真安静啊。","啊哈哈蛤蛤蛤!","那么这就是你的终末了。","嗯哼哼，让我看看你被烧成什么样子了。"]
+  },
+  "Moonworks:BossFightTextContainer": {
+    "NAME": "Boss Fight Text",
+    "DESCRIPTION": "Extended Description used to hold text that will occasionally appear at the beginning of a boss fight。",
+    "EXTENDED_DESCRIPTION": ["找到了! 一个强大的对手!","啊哈哈! 这一定是场有趣的战斗。","我相信你烧起来会很美。"]
+  },
+  "Moonworks:HealingTextContainer": {
+    "NAME": "Healing Text",
+    "DESCRIPTION": "Extended Description used to hold text that will occasionally appear when healing。",
+    "EXTENDED_DESCRIPTION": ["我还能坚持。。。","呼呼。。。 感觉真不错。","我准备好再战啦。","感觉好多了。","感觉不痛了! 啊哈哈!"]
+  },
+  "Moonworks:FieldDamageTextContainer": {
+    "NAME": "Field Damage Text",
+    "DESCRIPTION": "Extended Description used to hold text that will occasionally appear when taking thorns damage。",
+    "EXTENDED_DESCRIPTION": ["哎呀!","啊唔。","噢。","这家伙。。。"]
+  },
+  "Moonworks:LightDamageTextContainer": {
+    "NAME": "Light Damage Text",
+    "DESCRIPTION": "Extended Description used to hold text that will occasionally appear when taking light damage。",
+    "EXTENDED_DESCRIPTION": ["可恶。","啊唔。","你这个。。。","唔嗯。"]
+  },
+  "Moonworks:HeavyDamageTextContainer": {
+    "NAME": "Heavy Damage Text",
+    "DESCRIPTION": "Extended Description used to hold text that will occasionally appear when taking heavy damage。",
+    "EXTENDED_DESCRIPTION": ["这不公平。","好痛。。。 好痛啊啊啊啊!","好痛!","这也太离谱了。","哼哼啊啊啊。"]
+  },
+  "Moonworks:BlockedDamageTextContainer": {
+    "NAME": "Blocked Damage Text",
+    "DESCRIPTION": "Extended Description used to hold text that will occasionally appear when blocking damage。",
+    "EXTENDED_DESCRIPTION": ["啊哈!","你打不着我的。","怎么，你就这点能耐?"]
+  },
+  "Moonworks:HomemarkTextContainer": {
+    "NAME": "Homemark Text",
+    "DESCRIPTION": "Extended Description used to hold text that will occasionally appear when spending gold with the Homemark。",
+    "EXTENDED_DESCRIPTION": ["当当，我想烧了它们。","诶嘿嘿嘿，现在它们都变成碎片了。","我不需要这么多这种东西。","这些硬币除了会成为我的负担以外一无是处。","*叹气* 我想要的是战争，不是这些愚蠢的东西。"]
+  },
+  "Moonworks:KOTextContainer": {
+    "NAME": "KO Text",
+    "DESCRIPTION": "Extended Description used to hold text that will occasionally appear when defeated in battle。",
+    "EXTENDED_DESCRIPTION": ["不。。。 这怎么可能。","被击败的话,我的存在还有什么意义。。。","不要。。。 我的存在。。。是为了什么?","我-我居然会被这种东西打败。。。","我不得不赢。。。 我永远都要赢!"]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "modid": "ALocalizationUpdate",
+  "name": "A Localization Update",
+  "author_list": ["Rita"],
+  "credits": "Rita",
+  "description": "A mod for update localization in old mods",
+  "version": "0.1.0",
+  "sts_version": "07-17-2019",
+  "mts_version": "3.8.3",
+  "dependencies": ["basemod"]
+}
